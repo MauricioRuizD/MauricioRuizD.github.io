@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
+    </head>
+    <body>
+        <h2>Advanced Search</h2>
+            
+        <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
+                <a href="https://www.google.com" style="text-align:center">
+                    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo" width="150px" height="50px">
+                </a>
+            <form action="https://www.google.com/search" method="get" style="text-align:center">
+                <label for="q">All these words:</label>
+                <input type="text" id="q" name="q">
+                
+                <br>
+                
+                <label for="as_epq">This exact word or phrase:</label>
+                <input type="text" id="as_epq" name="as_epq">
+                
+                <br>
+                
+                <label for="as_oq">Any of these words:</label>
+                <input type="text" id="as_oq" name="as_oq">
+                
+                <br>
+                
+                <label for="as_eq">None of these words:</label>
+                <input type="text" id="as_eq" name="as_eq">
+                
+                <br>
+                
+                <input type="submit" value="Search">
+            </form>
+        </div>
+        
+    </body>
+</html>
